@@ -9,12 +9,12 @@ namespace ariel
         
     }
 
-    void Board::post(u_int row, u_int column, Direction direction, string msg){
+    void Board::post(u_int row, u_int column, Direction direction,  std::string msg){
 
     }
 
-    string Board::read(u_int row, u_int column, Direction direction, u_int length){
-        
+     std::string Board::read(u_int row, u_int column, Direction direction, u_int length){
+        return "";
     }
 
     void Board::show(){

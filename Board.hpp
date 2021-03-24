@@ -3,22 +3,20 @@
 #include <string>
 
 
-namespace ariel{
-    class Board;
-}
-
-
-class ariel::Board {
-   
-
-   
+namespace ariel
+{
+    class Board
+    {
        
-    public: Board();
+    public:
+    
+        Board();
 
-    public: void Board::post(u_int row, u_int column, Direction direction, string msg);
+        void post(u_int row, u_int column, Direction direction,  std::string msg);
 
-    public: string Board::read(u_int row, u_int column, Direction direction, u_int length);
+        std::string read(u_int row, u_int column, Direction direction, u_int length);
 
-    public: void show();
-};
+        void show();
+    };
 
+}
